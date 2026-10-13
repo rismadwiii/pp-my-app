@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | BookTrack</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f7f5ff;
+            color: #30294a;
+            line-height: 1.8;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6c4bd8, #9276ed);
+            color: white;
+            padding: 55px 20px;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+
+        header p {
+            max-width: 650px;
+            margin: auto;
+            color: #f0ebff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 35px auto;
+            padding: 0 20px;
+        }
+
+        .policy-card {
+            background: white;
+            padding: 40px;
+            border-radius: 18px;
+            box-shadow: 0 8px 30px rgba(70, 45, 130, 0.08);
+        }
+
+        .updated {
+            display: inline-block;
+            background: #eee8ff;
+            color: #6945cb;
+            padding: 7px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: #6846ce;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 23px;
+            margin: 12px 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #6846ce;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight {
+            background: #f5f1ff;
+            border-left: 4px solid #8060e5;
+            padding: 18px;
+            border-radius: 8px;
+            margin: 18px 0;
+        }
+
+        .contact {
+            background: #f8f6ff;
+            border-radius: 12px;
+            padding: 22px;
+            margin-top: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 28px 15px;
+            color: #77708d;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 40px 20px;
+            }
+
+            .logo {
+                font-size: 26px;
+            }
+
+            .policy-card {
+                padding: 24px 20px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            .container {
+                margin: 20px auto;
+                padding: 0 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">📚 BookTrack</div>
+        <p>
+            Kebijakan Privasi
+            <br>
+            Membaca lebih teratur, mengelola buku lebih mudah.
+        </p>
+    </header>
+
+    <main class="container">
+        <article class="policy-card">
+
+            <span class="updated">
+                Terakhir diperbarui: 13 Oktober 2026
+            </span>
+
+            <p>
+                Selamat datang di BookTrack! Kami menghargai privasi
+                setiap pengguna. Halaman ini menjelaskan informasi yang
+                digunakan, cara penyimpanan data, dan bagaimana data
+                tersebut dikelola ketika kamu menggunakan BookTrack.
+            </p>
+
+            <h2>1. Tentang BookTrack</h2>
+            <p>
+                BookTrack adalah aplikasi literasi yang membantu pengguna
+                mengatur perjalanan membaca dalam satu aplikasi.
+                Pengguna dapat mencari buku berdasarkan judul dan genre,
+                melihat detail buku, menyimpan buku ke Wishlist,
+                mengelola koleksi melalui My Books, serta mencatat
+                perkembangan membaca melalui Reading Progress.
+            </p>
+
+            <h2>2. Informasi yang Digunakan</h2>
+            <p>Informasi yang dapat digunakan oleh BookTrack meliputi:</p>
+            <ul>
+                <li>
+                    <strong>Informasi akun:</strong>
+                    nama, email, dan informasi yang diperlukan saat
+                    registrasi, login, atau pengaturan profil.
+                </li>
+                <li>
+                    <strong>Data buku:</strong>
+                    informasi buku yang disimpan dalam Wishlist dan My Books.
+                </li>
+                <li>
+                    <strong>Reading Progress:</strong>
+                    halaman terakhir atau perkembangan membaca yang dicatat.
+                </li>
+                <li>
+                    <strong>Data pencarian:</strong>
+                    kata kunci yang digunakan untuk mencari buku.
+                </li>
+                <li>
+                    <strong>Data teknis:</strong>
+                    informasi teknis yang mungkin diproses oleh
+                    layanan atau komponen pihak ketiga.
+                </li>
+            </ul>
+
+            <h2>3. Cara Penyimpanan Data</h2>
+            <p>
+                BookTrack menggunakan SQLite pada aplikasi Android
+                untuk menyimpan data yang diperlukan oleh fitur tertentu.
+                Data seperti koleksi buku, Wishlist, dan Reading Progress
+                dapat disimpan secara lokal pada perangkat, sesuai dengan
+                implementasi fitur tersebut.
+            </p>
+
+            <div class="highlight">
+                <strong>Penyimpanan lokal</strong>
+                <p>
+                    Data yang disimpan secara lokal berada di penyimpanan
+                    aplikasi pada perangkat pengguna. Data lokal dapat
+                    hilang ketika data aplikasi dihapus atau aplikasi
+                    di-uninstall. Penghapusan lokal tidak otomatis
+                    menghapus data yang mungkin tersimpan di layanan lain.
+                </p>
+            </div>
+
+            <p>
+                Jika aplikasi menggunakan server atau layanan penyimpanan
+                tambahan, informasi tersebut perlu dijelaskan sesuai
+                dengan penerapan sebenarnya.
+            </p>
+
+            <h2>4. Tujuan Penggunaan Data</h2>
+            <p>Data digunakan untuk mendukung fungsi BookTrack, seperti:</p>
+            <ul>
+                <li>Mendukung proses registrasi dan login.</li>
+                <li>Menampilkan informasi dan rekomendasi buku.</li>
+                <li>Mengelola Wishlist dan koleksi My Books.</li>
+                <li>Mencatat serta menampilkan Reading Progress.</li>
+                <li>Membantu menjaga fungsi dan keandalan aplikasi.</li>
+            </ul>
+
+            <h2>5. Integrasi Google Books</h2>
+            <p>
+                BookTrack menggunakan Google Books API untuk mengambil
+                informasi buku, seperti judul, penulis, sampul,
+                deskripsi, dan informasi akses membaca jika tersedia.
+            </p>
+            <p>
+                Ketika pengguna mencari buku atau membuka detailnya,
+                permintaan tertentu dapat dikirim ke layanan Google
+                untuk memperoleh informasi yang dibutuhkan.
+            </p>
+            <p>
+                Tidak semua buku dapat dibaca secara penuh. Ketersediaan
+                akses membaca mengikuti informasi dan ketentuan
+                layanan Google Books.
+            </p>
+            <p>
+                Untuk informasi lebih lanjut, kunjungi
+                <a href="https://policies.google.com/privacy"
+                   target="_blank" rel="noopener noreferrer">
+                    Kebijakan Privasi Google
+                </a>.
+            </p>
+
+            <h2>6. Pembagian Data</h2>
+            <p>
+                BookTrack tidak bermaksud menjual data pribadi pengguna.
+                Informasi dapat diproses oleh layanan pihak ketiga
+                yang diperlukan untuk menjalankan fitur aplikasi.
+                Data yang dikirim bergantung pada permintaan pengguna
+                dan implementasi teknis aplikasi.
+            </p>
+
+            <h2>7. Keamanan Data</h2>
+            <p>
+                Kami berupaya menjaga informasi pengguna melalui
+                pengelolaan data dan penyimpanan yang sesuai dengan
+                kemampuan sistem. Namun, tidak ada metode penyimpanan
+                atau pengiriman data yang dapat dijamin sepenuhnya
+                bebas dari risiko.
+            </p>
+
+            <h2>8. Penghapusan Data</h2>
+            <p>
+                Data lokal dapat dihapus melalui penghapusan data
+                aplikasi atau uninstall, tetapi tindakan tersebut
+                tidak otomatis menghapus data yang mungkin diproses
+                oleh layanan pihak ketiga.
+            </p>
+            <p>
+                Jika BookTrack menyediakan akun pengguna, pengguna
+                harus memiliki mekanisme yang jelas untuk meminta
+                penghapusan akun dan data terkait. Pelaksanaannya
+                mengikuti mekanisme yang benar-benar tersedia
+                dalam aplikasi.
+            </p>
+
+            <h2>9. Privasi Anak</h2>
+            <p>
+                BookTrack tidak secara khusus ditujukan kepada anak-anak,
+                kecuali dinyatakan lain oleh pengembang. Pengelolaan
+                informasi pengguna akan disesuaikan dengan ketentuan
+                privasi yang berlaku.
+            </p>
+
+            <h2>10. Perubahan Kebijakan</h2>
+            <p>
+                Kebijakan Privasi ini dapat diperbarui apabila terdapat
+                perubahan pada fitur, penyimpanan data, integrasi layanan,
+                atau ketentuan yang berlaku. Versi terbaru akan
+                dipublikasikan pada halaman ini.
+            </p>
+
+            <h2>11. Hubungi Kami</h2>
+            <div class="contact">
+                <p>
+                    Jika memiliki pertanyaan atau permintaan terkait
+                    privasi, silakan hubungi pengembang BookTrack.
+                </p>
+                <p><strong>Nama aplikasi:</strong> BookTrack</p>
+                <p>
+                    <strong>Pengembang:</strong>
+                    Risma Dwi Az-Zahra
+                </p>
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:rismadwiazzahra23@gmail.com">
+                        rismadwiazzahra23@gmail.com
+                    </a>
+                </p>
+            </div>
+
+        </article>
+    </main>
+
+    <footer>
+        &copy; 2026 BookTrack. Kebijakan Privasi.
+        <br>
+        Mendukung perjalanan membaca yang lebih teratur.
+    </footer>
+
+</body>
+</html>
